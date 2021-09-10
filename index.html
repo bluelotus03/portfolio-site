@@ -1,167 +1,246 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width">
-      <title>My Portfolio</title>
-      <link href="style.css" rel="stylesheet" type="text/css" />
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="script.js"></script>
-  </head>
-    <body>
-	  
-        <div class="container">
-	  
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>My Portfolio</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+</head>
+
+<body>
+
+	<div class="container">
+
 		<!--────────────────Header───────────────-->
-	<header>
-		<a class="logo" href="#home"></a>
-		<nav>	
-		 <ul class="nav-bar"><div class="bg"></div>
-			<li><a class="nav-link active" href="#home">Home</a></li>
-			<li><a class="nav-link" href="#gwc">GWC</a></li>
-			<li><a class="nav-link" href="#projects">Projects</a></li>
-			<li><a class="nav-link" href="#about">About</a></li>
-		 </ul>
-			<div class="hamburger">
-				<div class="line1"></div>
-            <div class="line2"></div>
-				<div class="line3"></div>
+		<header>
+			<a class="logo" href="#home"></a>
+			<nav>
+				<ul class="nav-bar">
+					<div class="bg"></div>
+					<li><a class="nav-link active" href="#home">Home</a></li>
+					<li><a class="nav-link" href="#gwc">GWC</a></li>
+					<li><a class="nav-link" href="#projects">Projects</a></li>
+					<li><a class="nav-link" href="#about">About</a></li>
+				</ul>
+				<div class="hamburger">
+					<div class="line1"></div>
+					<div class="line2"></div>
+					<div class="line3"></div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<!--─────────────────Home────────────────-->
+			<div id="home">
+				<div class="filter"></div>
+				<section class="intro">
+					<h3>Ashley H.
+						<hr>
+					</h3>
+					<p>Student &nbsp;|&nbsp; TA &nbsp;|&nbsp; Tutor &nbsp;|&nbsp; Designer</p>
+					<p>A lover of design, development, video editing, and teaching
+					</p>
+
+
+					<!--────social media links─────-->
+					<div class="social-media">
+						<a href="https://www.linkedin.com/in/ashharmon/" target="_blank"><i
+								class='fab fa-linkedin'></i></a>
+						<a href="https://www.youtube.com/channel/UCrBn4DZnHLNc-hULSA1H36w" target="_blank"><i
+								class="fab fa-youtube"></i></a>
+						<a href="https://twitter.com/ash_hrz00" target="_blank"><i class='fab fa-twitter'></i></a>
+						<a href="https://github.com/bluelotus03" target="_blank"><i class='fab fa-github'></i></a>
+					</div>
+
+				</section>
 			</div>
-		</nav>
-	</header>
-	<main>
-		<!--─────────────────Home────────────────-->
-	  <div id="home">
-		 <div class="filter"></div>
-		 <section class="intro">
-		  <h3>Ashley H.<hr></h3>
-		  <p>Student &nbsp;|&nbsp; TA &nbsp;|&nbsp; Tutor &nbsp;|&nbsp; Designer</p>
-		  <p>A lover of design, development, video editing, and teaching  
-      </p>
-    
-			  
-		  <!--────social media links─────-->
-		  <div class="social-media">
-			<a href="https://www.linkedin.com/in/ashharmon/" target="_blank"><i class='fab fa-linkedin'></i></a>
-			  <a href="https://www.youtube.com/channel/UCrBn4DZnHLNc-hULSA1H36w" target="_blank"><i class="fab fa-youtube"></i></a>
-			  <a href="https://twitter.com/ash_hrz00" target="_blank"><i class='fab fa-twitter'></i></a> 
-			  <a href="https://github.com/bluelotus03" target="_blank"><i class='fab fa-github'></i></a>
-		    </div>
-			 
-		 </section> 
-	  </div>  
-		
-
-     <!--───────────────GWC───────────────-->
-    <div id="gwc"> 
-		 <h3>Girls Who Code<hr></h3>
-		  <p>Check out some of my work for GWC at UNCC. You can see my logo and flyer designs, as well as more about us and what we do on our social media accounts below. Our IG is our oldest account where you can see our past events and my redesign of our brand! Two of my workshop recordings with GWC are also up online.</p>
-		  <div class="work-box">
-		  <div class="work">
-		<!--───────────────card───────────────-->
-			<div class="card">
-			    <img class="work-img" src="images/logo-gwc.png">
-			    <a href="https://www.instagram.com/girlswhocode_uncc/" target="_blank"> <!--Link to project-->
-				<div class="work-content">GWC Instagram</div></a>
-            </div>
-      <div class="card">
-			    <img class="work-img" src="images/git-wkp.png">
-			    <a href="https://youtu.be/dnZkN6w6orw" target="_blank"> <!--Link to project-->
-				<div class="work-content">GitHub Workshop</div></a>
-            </div>
-			<div class="card">
-			    <img class="work-img" src="images/hugo-wkp.png">
-				<a href="https://youtu.be/hOHpcPRzh7Y" target="_blank"> <!--Link to project-->
-				<div class="work-content">Hugo Workshop</div></a>
-            </div>	  
-		  </div>
-		  </div>
-	  </div>
-    <div class="social-media">
-			  <a href="https://twitter.com/gwc_uncc" target="_blank"><i class='fab fa-twitter'></i></a>
-			  <a href="https://github.com/GWC-UNCC" target="_blank"><i class='fab fa-github'></i></a>
-			  <a href="https://www.linkedin.com/company/girls-who-code-at-unc-charlotte/" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="https://www.facebook.com/girlswhocode.uncc/" target="_blank"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.instagram.com/girlswhocode_uncc/" target="_blank"><i class="fab fa-instagram"></i></a>
-
-		</div>
-
-		 <!--───────────────Projects───────────────-->
-		 <div id="projects"> 
-			<h3>My Projects<hr></h3>
-			 <p>Check out some of my creative and technical endeavors.</p>
-			 <div class="work-box">
-			 <div class="work">
-		   <!--───────────────card───────────────-->
-			   <div class="card">
-				   <img class="work-img" src="images/sparkar-filter.PNG">
-				   <a href="https://youtu.be/Tw-xXjK4GFM" target="_blank"> <!--Link to project-->
-				   <div class="work-content">MLH INIT Filter <br />with Spark AR</div></a>
-			   </div>
-			   <div class="card">
-				   <img class="work-img" src="images/aslml.PNG">
-				   <a href="https://www.youtube.com/watch?v=fOndnHpxA68" target="_blank"> <!--Link to project-->
-				   <div class="work-content">ASL ML Model with Teachable Machine</div></a>
-			   </div>
-			   <div class="card">
-				   <img class="work-img" src="images/hangman.PNG">
-				   <a href="https://youtu.be/qtLqbnlKoOg" target="_blank"> <!--Link to project-->
-				   <div class="work-content">SMS Hangman Game with Twilio</div></a>
-			   </div>
-			   <div class="card">
-				   <img class="work-img" src="images/cl.PNG">
-				   <a href="https://youtu.be/X25p8FuYvKw" target="_blank"> <!--Link to project-->
-				   <div class="work-content">Coffee Lovers <br /> Website</div></a>
-			   </div> 
-			   <div class="card">
-				   <img class="work-img" src="images/gwc.PNG">
-				   <a href="https://www.youtube.com/watch?v=hrpGN6BQHX0&t=17s" target="_blank"> <!--Link to project-->
-				   <div class="work-content">Girls Who Code at UNCC Prototype</div></a>
-			   </div>
-			   <div class="card">
-				   <img class="work-img" src="images/incs.PNG">
-				   <a href="https://incovatesolutions.com/" target="_blank"> <!--Link to project-->
-				   <div class="work-content">Incovate Solutions Website</div></a>
-			   </div> 	  
-		 <div class="card">
-				   <img class="work-img" src="images/calc.PNG">
-				   <a href="https://replit.com/@lilP3trie/Build-a-Calculator#main.py" target="_blank"> <!--Link to project-->
-				   <div class="work-content">Basic Calculator with Python</div></a>
-			   </div>
-		 <div class="card">
-				   <img class="work-img" src="images/curseofw.PNG">
-				   <a href="https://github.com/OrionStudios/TheCurseOfWaldron-Playable" target="_blank"> <!--Link to project-->
-				   <div class="work-content">The Curse of Waldron Game</div></a>
-			   </div> 	
-		 <div class="card">
-				   <img class="work-img" src="images/spacen.PNG">
-				   <a href="https://github.com/OrionStudios/SpaceNinja-Playable" target="_blank"> <!--Link to project-->
-				   <div class="work-content">Space Ninja <br />Game</div></a>
-			   </div> 	
-		
-			 </div>
-			 </div>
-		 </div>
 
 
-		<!--──────────────About────────────────-->
-	  <div id="about">
-		  <!--────social media links─────-->
-		   <h3>About.<hr></h3>
-		   <p>Ash is a MS student studying HCI, working as a CCI teaching assistant, 
-        a Java tutor, Web and Media Chair for Girls Who Code at UNCC, and a freelance 
-        web developer for a small startup. She earned her BS degree in Cyber Security,
-        while she worked as an Information Security Intern at UNCC's ITS,  
-        and has transitioned from her base in security to focus on design and devlopment. 
-      </p>
-		  </div>
+			<!--───────────────GWC───────────────-->
+			<div id="gwc">
+				<h3>Girls Who Code
+					<hr>
+				</h3>
+				<p>Check out some of my work for GWC at UNCC as their Web & Media Chair! You can see social media
+					content I've created, as well as our <a href="https://gwc-uncc.github.io/myportfolio/" target="_blank"><strong>new website</strong></a>. Instagram is our oldest account where you
+					can see our past events and our new branding! Three of my workshop recordings with GWC are also up
+					online.</p>
+				<div class="work-box">
+					<div class="work">
+						<!--───────────────card───────────────-->
+						<div class="card">
+							<img class="work-img" src="images/IG-Newwebsite.png">
+							<a href="https://youtu.be/Lu9n9t3DmOM" target="_blank">
+								<!--Link to project-->
+								<div class="work-content">NEW GWC<br />Website Demo</div>
+							</a>
+						</div>
 
-	</main>
-	  <footer class="copyright">© 2020 
-		  <a href="https://repl.it/@lilykhan" target="_blank"> Template brought to you by Lilykhan.</a>
-     </footer>
-	  
-  </div>
-  </body>
+						<div class="card">
+							<img class="work-img" src="images/WELCOME-CARD.png">
+							<a href="https://www.instagram.com/girlswhocode_uncc/" target="_blank">
+								<!--Link to project-->
+								<div class="work-content">GWC Instagram</div>
+							</a>
+						</div>
+						<div class="card">
+							<img class="work-img" src="images/GH WK - 2.png">
+							<a href="https://youtu.be/cGU5RUMHy38" target="_blank">
+								<!--Link to project-->
+								<div class="work-content">GitHub Workshop<br/>Setup & Basics</div>
+							</a>
+						</div>
+						<div class="card">
+							<img class="work-img" src="images/git-wkp.png">
+							<a href="https://youtu.be/dnZkN6w6orw" target="_blank">
+								<!--Link to project-->
+								<div class="work-content">GitHub Workshop<br/>Next Level</div>
+							</a>
+						</div>
+						<div class="card">
+							<img class="work-img" src="images/hugo-wkp.png">
+							<a href="https://youtu.be/hOHpcPRzh7Y" target="_blank">
+								<!--Link to project-->
+								<div class="work-content">Hugo Workshop</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="social-media">
+				<a href="https://www.instagram.com/girlswhocode_uncc/" target="_blank"><i
+						class="fab fa-instagram"></i></a>
+				<a href="https://twitter.com/gwc_uncc" target="_blank"><i class='fab fa-twitter'></i></a>
+				<a href="https://github.com/GWC-UNCC" target="_blank"><i class='fab fa-github'></i></a>
+				<a href="https://www.linkedin.com/company/girls-who-code-at-unc-charlotte/" target="_blank"><i
+						class="fab fa-linkedin"></i></a>
+				<a href="https://www.facebook.com/girlswhocode.uncc/" target="_blank"><i
+						class="fab fa-facebook"></i></a>
+
+
+			</div>
+
+			<!--───────────────Projects───────────────-->
+			<div id="projects">
+				<h3>My Projects
+					<hr>
+				</h3>
+				<p>Check out some of my creative and technical endeavors. They range from web and game design and development, prototyping, and video editing, to various hackathon projects. You can check out my first 
+					hand-drawn animation adventure for the intro and outro of <a href="https://youtu.be/JSJU-VPrnC0" target="_blank"><strong>this video</strong></a>, as well as fun edits for the intros in the game demos below. 
+				</p>
+				<div class="work-box">
+					<div class="work">
+						<!--───────────────card───────────────-->
+						<div class="card">
+							<img class="work-img" src="images/gwc.PNG">
+							<a href="https://www.youtube.com/watch?v=hrpGN6BQHX0&t=17s" target="_blank">
+								<!--Link to project-->
+								<div class="work-content">Design Portfolio</div>
+							</a>
+						</div>
+
+						<div class="card">
+							<img class="work-img" src="images/gwc.PNG">
+							<a href="https://www.youtube.com/watch?v=hrpGN6BQHX0" target="_blank">
+								<!--Link to project-->
+								<div class="work-content">Girls Who Code at UNCC Prototype</div>
+							</a>
+						</div>
+						<div class="card">
+							<img class="work-img" src="images/gwc.PNG">
+							<a href="https://www.youtube.com/watch?v=hrpGN6BQHX0&t=17s" target="_blank">
+								<!--Link to project-->
+								<div class="work-content">MLH INIT <br /> Hackathon Recap</div>
+							</a>
+						</div>
+						<div class="card">
+							<img class="work-img" src="images/cl.PNG">
+							<a href="https://youtu.be/X25p8FuYvKw" target="_blank">
+								<!--Link to project-->
+								<div class="work-content">Coffee Lovers <br /> Website</div>
+							</a>
+						</div>
+						<div class="card">
+							<img class="work-img" src="images/incs.PNG">
+							<a href="https://incovatesolutions.com/" target="_blank">
+								<!--Link to project-->
+								<div class="work-content">Incovate Solutions Website</div>
+							</a>
+						</div>
+						<div class="card">
+							<img class="work-img" src="images/curseofw.PNG">
+							<a href="https://github.com/OrionStudios/TheCurseOfWaldron-Playable" target="_blank">
+								<!--Link to project-->
+								<div class="work-content">The Curse of Waldron Game</div>
+							</a>
+						</div>
+						<div class="card">
+							<img class="work-img" src="images/spacen.PNG">
+							<a href="https://github.com/OrionStudios/SpaceNinja-Playable" target="_blank">
+								<!--Link to project-->
+								<div class="work-content">Space Ninja <br />Game</div>
+							</a>
+						</div>
+						<div class="card">
+							<img class="work-img" src="images/sparkar-filter.PNG">
+							<a href="https://youtu.be/Tw-xXjK4GFM" target="_blank">
+								<!--Link to project-->
+								<div class="work-content">MLH INIT Filter <br />with Spark AR</div>
+							</a>
+						</div>
+						<div class="card">
+							<img class="work-img" src="images/aslml.PNG">
+							<a href="https://www.youtube.com/watch?v=fOndnHpxA68" target="_blank">
+								<!--Link to project-->
+								<div class="work-content">ASL ML Model with Teachable Machine</div>
+							</a>
+						</div>
+						<div class="card">
+							<img class="work-img" src="images/hangman.PNG">
+							<a href="https://youtu.be/qtLqbnlKoOg" target="_blank">
+								<!--Link to project-->
+								<div class="work-content">SMS Hangman Game with Twilio</div>
+							</a>
+						</div>
+						
+						<div class="card">
+							<img class="work-img" src="images/calc.PNG">
+							<a href="https://replit.com/@lilP3trie/Build-a-Calculator#main.py" target="_blank">
+								<!--Link to project-->
+								<div class="work-content">Basic Calculator with Python</div>
+							</a>
+						</div>
+						
+
+					</div>
+				</div>
+			</div>
+
+
+			<!--──────────────About────────────────-->
+			<div id="about">
+				<!--────social media links─────-->
+				<h3>About.
+					<hr>
+				</h3>
+				<p>Ash is a MS student studying HCI, working as a CCI teaching assistant,
+					a Java tutor, Web and Media Chair for Girls Who Code at UNCC, and a freelance
+					web developer for a small startup. She earned her BS degree in Cyber Security,
+					while she worked as an Information Security Intern at UNCC's ITS,
+					and has transitioned from her base in security to focus on design and devlopment.
+				</p>
+			</div>
+
+		</main>
+		<footer class="copyright">© 2020
+			<a href="https://repl.it/@lilykhan" target="_blank"> Template brought to you by Lilykhan.</a>
+		</footer>
+
+	</div>
+</body>
+
 </html>

@@ -180,6 +180,9 @@ a.nav-link{
 	font-family: var(--main-font-family);
 	font-size:1.2rem;
 	padding: 10px;
+	padding-left:20%;
+	padding-right:20%;
+	padding-top:1%;
 }
 
 .work{
@@ -248,10 +251,14 @@ a.nav-link{
 #gwc p{
 	font-family: var(--main-font-family);
 	font-size:1.2rem;
-	padding: 10px;
+	padding-left:20%;
+	padding-right:20%;
+	padding-top:1%;
 }
 
-
+p a {
+	color: #00a9e2;
+}
 /*──────────────────
       About
 ──────────────────*/
