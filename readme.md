@@ -1,4 +1,7 @@
-#### This site was created with a template on replit. Moving the code over soon! 
+## This is my current portfolio for some of my creative and technical endeavors. 
+Stay tuned, a new portfolio site is underway!
+
+#### This site was created with a template on replit. See information from the original template creator below. 
 
 ### View on Replit: https://Portfolio-Site-Template-1.lilp3trie.repl.co
 
