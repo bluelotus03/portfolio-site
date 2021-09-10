@@ -1,4 +1,5 @@
-## This is my current portfolio for some of my creative and technical endeavors. 
+## See live site: bluelotus03.tech
+### This is my current portfolio for some of my creative and technical endeavors. 
 Stay tuned, a new portfolio site is underway!
 
 #### This site was created with a template on replit. See information from the original template creator below. 
