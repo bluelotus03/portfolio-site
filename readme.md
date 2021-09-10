@@ -1,9 +1,7 @@
 ## See live site: [bluelotus03.tech](https://bluelotus03.tech)
-### This is my current portfolio for some of my creative and technical endeavors. 
-Stay tuned, a new portfolio site is underway!
+This is my current portfolio for some of my creative and technical endeavors. Stay tuned, a new portfolio site is underway!
 
 #### This site was created with a template on replit. See information from the original template creator below. 
-#### Notes from the original author of the template
 This is a simple responsive portfolio website template that I made for Repl.it template jam. You can use it and make it yours by changing things and colors to your style and liking! I made it with a lot of hard work, love and of course with code :) I'm not a professional coder, but i tried my best to make it look cool and yet still keep it simple. While working with JS i got many errors, but thanks to [Kakashi](https://repl.it/@apoorvsingal) for fixing them. Also thanks to all people on discord who provided feedback and suggestions, especially Panda and Kub! :D
 
 > Mistakes are proof that we are trying!
