@@ -1,4 +1,4 @@
-## See live site: bluelotus03.tech
+## See live site: [bluelotus03.tech](https://bluelotus03.tech)
 ### This is my current portfolio for some of my creative and technical endeavors. 
 Stay tuned, a new portfolio site is underway!
 
