@@ -173,6 +173,7 @@ a.nav-link{
     justify-content: center;
 	text-align:center;
 	color: var(--main-fonts-color);
+	background-color: #0b0c0f;
 }
 #projects h3{
     padding-top: 70px;
@@ -234,6 +235,15 @@ a.nav-link{
 	box-shadow: 0 0 1.5rem gray;
 }
 
+#blackcard {
+	background:#0b0c0f;
+	width: 220px;
+	height: 2px;
+}
+#blackcard:hover {
+	box-shadow: none;
+}
+
 /*──────────────────
       gwc
 ──────────────────*/
@@ -276,6 +286,7 @@ p a {
 	align-items: center;
 	justify-content: center;
 	color: var(--main-fonts-color);
+	background-color: #0b0c0f;
 }
 	
 #about p{
