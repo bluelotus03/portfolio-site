@@ -1,5 +1,7 @@
+## Update: Current Portfolio is https://www.bluelotus03.tech/
 
-This is my current portfolio for some of my creative and technical endeavors. Stay tuned, a new portfolio site is underway!
+#### This was my portfolio for some of my creative and technical endeavors. Stay tuned, a new portfolio site is underway!
+See site: https://bluelotus03.github.io/portfolio-site/
 
 #### This site was created with a template on replit. See information from the original template creator below. 
 
